@@ -3,7 +3,7 @@ import './style.css'
 
 const Sobre = () => (
     <div>
-        Sobre
+        Teste Sobre
     </div>
 )
 

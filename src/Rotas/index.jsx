@@ -8,8 +8,8 @@ const Rotas = () => (
     <BrowserRouter>
     <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route path="./sabores" element={<Sabores/>}/>
-        <Route path="./sobre" element={<Sobre/>}/>
+        <Route path="/sabores" element={<Sabores/>}/>
+        <Route path="/sobre" element={<Sobre/>}/>
     </Routes>
     </BrowserRouter>
 )
