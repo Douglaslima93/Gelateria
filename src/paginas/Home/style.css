@@ -14,6 +14,8 @@
 .banner h1 {
     font-size: 60px;
     color: white;
+    text-align: center;
+    text-shadow: 3px 5px 2px #474747;
 }
 
 /*Inicio section sabores*/
@@ -25,7 +27,6 @@
 .sabores img, .eventos img, .sobre img {
     width: 50%;
     height: auto;
-    object-fit: cover;
 }
 
 .texto-sabores, .texto-eventos, .texto-sobre {
@@ -47,10 +48,76 @@
 .texto-sabores span, .texto-eventos span, .texto-sobre span {
     font-size: 22px;
     text-align: center;
+    font-weight: bold;
 }
 
 .texto-sabores p, .texto-eventos p, .texto-sobre p {
     font-size: 18px;
     text-align: justify;
 }
+
+@media screen and (max-width: 425px) {
+    .banner h1 {
+        font-size: 60px;
+        color: white;
+    }
+
+    /*-------------------*/
+
+    .sabores, .sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .eventos {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sabores img, .eventos img, .sobre img {
+        width: 100%;
+    }
+    
+    .texto-sabores, .texto-eventos, .texto-sobre {
+        width: 100%;
+    }
+
+    .texto-sabores p, .texto-eventos p, .texto-sobre p {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .sabores, .sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .eventos {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sabores img, .eventos img, .sobre img {
+        width: 100%;
+    }
+    
+    .texto-sabores, .texto-eventos, .texto-sobre {
+        width: 100%;
+    }
+
+    .texto-sabores p, .texto-eventos p, .texto-sobre p {
+        text-align: center;
+    }
+    
+}
+
 

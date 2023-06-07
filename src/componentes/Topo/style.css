@@ -42,6 +42,10 @@ header div {
 }
 
 @media screen and (max-width: 425px) {
+    header{
+        width: 100%;
+    }
+
     header div {
         display: flex;
         flex-direction: column;
@@ -54,3 +58,21 @@ header div {
     }
 
 }
+
+/*-------------------*/
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+
+}
+
+/*-------------------*/
+
+@media screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+}
+
