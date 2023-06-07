@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header img {
+    width: 80px;
+}
+
+.icones-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.icones-menu a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid transparent;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.icones-menu a:hover {
+    border-bottom: 5px solid yellow;
+}

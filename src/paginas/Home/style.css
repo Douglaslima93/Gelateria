@@ -1,0 +1,17 @@
+.banner {
+    background-image: url('../../../public/img/banner-home.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: burlywood;
+    height: 100vh;
+}
+
+.banner h1 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: translate(0, 50vh);
+    font-size: 60px;
+    color: white;
+}

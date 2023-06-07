@@ -5,7 +5,7 @@ import Rotas from './Rotas'
 import Topo from './componentes/Topo'
 
 const App = () => (
-  <div className='App'>
+  <div className='limitar-secao'>
     <Rotas/>
   </div>
 )
