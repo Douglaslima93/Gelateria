@@ -1,19 +1,32 @@
 header {
+    width: 1024px;
+    background-color: rgb(249, 219, 121);
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    padding: 10px 20px;
+    top: 0;
+}
+
+header img {
+    width: auto;
+    height: 60px;
+}
+
+header div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-}
-
-header img {
-    width: 80px;
 }
 
 .icones-menu {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 40px;
 }
 
 .icones-menu a {
@@ -26,4 +39,18 @@ header img {
 
 .icones-menu a:hover {
     border-bottom: 5px solid yellow;
+}
+
+@media screen and (max-width: 425px) {
+    header div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icones-menu {
+        border-top: 2px solid black;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
 }

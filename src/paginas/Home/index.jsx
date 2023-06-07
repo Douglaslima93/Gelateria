@@ -13,11 +13,9 @@ const Home = () => (
         </section>
 
         <section className="sabores">
-            <div>
                 <img src="./img/banner-sabores.jpg" alt="sabores"/>
-            </div>
-
-            <div>
+        
+            <div className="texto-sabores">
                 <h2>NOSSOS SABORES</h2>
                 <span>Novos e deliciosos!</span>
                 <p>Sorvete bom é aquele feito com os melhores imgredientes!
@@ -31,7 +29,7 @@ const Home = () => (
         </section>
 
         <section className="eventos">
-            <div>
+            <div className="texto-eventos">
                 <h2>NOSSOS EVENTOS</h2>
                 <span>Delicias de sorvete!</span>
                 <p>Mais so que uma sorveteria, uma extensão da sua
@@ -42,17 +40,14 @@ const Home = () => (
                 </p>
             </div>
 
-            <div>
                 <img src="./img/eventos-image.jpg" alt="eventos"/>
-            </div>
         </section>
 
         <section className="sobre">
-            <div>
+            
                 <img src="./img/sobre-image.jpg" alt="sobre"/>
-            </div>
 
-            <div>
+            <div className="texto-sobre">
                 <h2>SOBRE NÓS</h2>
                 <span>Alegria em cada casquinha!</span>
                 <p>Venha tomar o melhor sorvete da região aqui com a
