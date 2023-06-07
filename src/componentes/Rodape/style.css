@@ -1,0 +1,93 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+
+.conteudo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.conteudo-footer img {
+    width: auto;
+    height: 80px;
+}
+
+.texto-endereco, .texto-contato, .texto-horario {
+    width: 200px;
+    height: auto;
+} 
+
+.texto-endereco h3, .texto-contato h3, .texto-horario h3 {
+    color: white;
+    font-size: 20px;
+} 
+
+.texto-endereco p, .texto-contato p, .texto-horario p {
+    color: white;
+    font-size: 18px;
+} 
+
+.texto-contato p a {
+    color: white;
+    text-decoration: none;
+} 
+
+.texto-contato p a:hover, .texto-rodape:hover {
+    color: rgb(249, 219, 121);
+} 
+
+.texto-rodape {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; 
+    font-size: 18px;
+}
+
+@media screen and (max-width: 425px) {
+    .conteudo-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 10px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .texto-endereco, .texto-contato, .texto-horario {
+        width: 100%;
+    } 
+
+    .texto-rodape {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 10px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .texto-endereco, .texto-contato, .texto-horario {
+        width: 100%;
+    } 
+
+    .texto-rodape {
+        text-align: center;
+    }
+}
+
+  
+
+
+
+
