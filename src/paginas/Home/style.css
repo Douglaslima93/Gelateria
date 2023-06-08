@@ -1,5 +1,5 @@
 .banner {
-    background-image: url('../../../public/img/banner-home.png');
+    background-image: url('../../../img/banner-home.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,7 +59,6 @@
 @media screen and (max-width: 425px) {
     .banner h1 {
         font-size: 60px;
-        color: white;
     }
 
     /*-------------------*/

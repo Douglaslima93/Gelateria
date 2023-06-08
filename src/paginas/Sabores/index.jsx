@@ -7,7 +7,7 @@ const Sabores = () => (
     
     <div>
         <Topo/>
-        <main>
+        <main className="conteudo-sabores">
 
             <section className="banner-sabores">
                 <h1>NOSSOS SABORES</h1>
