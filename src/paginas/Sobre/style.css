@@ -50,3 +50,27 @@
     width: 50%;
     height: auto;
 }
+
+@media screen and (max-width: 436px) {
+    .imagem-gelateria {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagem-gelateria img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imagem-gelateria {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagem-gelateria img {
+        width: 100%;
+        height: auto;
+    }
+}
