@@ -1,0 +1,52 @@
+.banner-sobre {
+    background-image: url('../../../public/img/banner-sobre.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-sobre h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 20px;
+}
+
+.conteudo-sobre h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.conteudo-sobre span {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.conteudo-sobre p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.imagem-gelateria {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem-gelateria img {
+    width: 50%;
+    height: auto;
+}
