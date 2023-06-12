@@ -15,7 +15,7 @@ const Sobre = () => (
     <section className="conteudo-sobre">
         <h2>Sobre Nós</h2>
         <span>Nós simplesmente amamos sorvete!</span>
-        <p>Somos uma empresa apaixonada pelo que faz. Colocamos amor em cada sorvete prosuzido. Fazemos o melhor sorvete
+        <p>Somos uma empresa apaixonada pelo que faz. Colocamos amor em cada sorvete produzido. Fazemos o melhor sorvete
             para os nossos clientes e gostamos de receber elogios. Estamos operando desde 2009 com as melhores matérias-primas
             para a produção final so sorvete. Vendemos tanto para varejo como para atacado.
             <br/><br/>

@@ -3,7 +3,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(249, 219, 121);
     height: 90vh;
     margin-top: 80px;
     display: flex;
@@ -18,8 +17,10 @@
     text-shadow: 3px 5px 2px #474747;
 }
 
+
 .sabores-de-sorvete {
     margin-top: 80px;
+    padding: 0 40px;
 }
 
 .sabores-de-sorvete h2 {
@@ -35,9 +36,8 @@
 }
 
 .opcoes-de-sabores img {
-    width: auto;
+    width: 300px;
     height: 300px;
-    padding: 20px;
 }
 
 .opcoes-de-sabores div {
@@ -48,7 +48,6 @@
     background-color: rgb(241, 237, 237);
     border-radius: 10px;
     box-shadow: 2px 2px 2px ;
-
 }
 
 .opcoes-de-sabores span {
@@ -65,8 +64,16 @@
 }
 
 @media screen and (max-width: 425px) {
+    .banner-sabores {
+        margin-top: 120px;
+    }
+
     .opcoes-de-sabores {
         justify-content: center;
+    }
+
+    .opcoes-de-sabores div {
+        width: 90%;
     }
 }
 
@@ -74,11 +81,9 @@
     .opcoes-de-sabores {
         justify-content: center;
     }
-
-    .opcoes-de-sabores div {
-        width: 60%;
-    }
 }
-@média screen and (max-width: 1240px) {
 
+@media screen and (max-width: 1024px) {
+    
 }
+
